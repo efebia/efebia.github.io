@@ -57,12 +57,13 @@ p {
 	position: relative;
 }
 
-.one {
+.one span {
 	color: pink;
 	font-size: 247px;
 	font-family:'Montserrat', sans-serif;
 	position: absolute;
 	top:100px;
+	z-index: -1;
 }
 
 .culture {
