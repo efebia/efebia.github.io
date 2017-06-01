@@ -8,23 +8,21 @@ header {
 	color: #FFFFFF;
 	text-align: center;
 	font-family:'Montserrat', sans-serif;
+	position: relative;
 }
 
 .fala1 {
- 	width: 60%;
- 	float: right;
+ 	width: 53%;
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: -40px;
 }
 
 .fala2 {
- 	width: 20%;
- 	float: right;
- }
-
-.fala2-relative {
-	position: relative;
- 	width: 20%;
- 	left: 700px;
- 	top: 0px;
+ 	width: 43%;
+	position: absolute;
+ 	right: 0px;
+ 	bottom: 50px;
 }
 
 nav {
@@ -48,34 +46,6 @@ p {
 	color:#7D2EAF;
 	font-size:12px;
 	font-family: 'Roboto Mono', monospace;
-}
-
-.projects {
-	padding-left: 100px;
-	padding-top: 10px;
-	padding-right: 550px;
-	position: relative;
-}
-
-.one span {
-	color: pink;
-	font-size: 247px;
-	font-family:'Montserrat', sans-serif;
-	position: absolute;
-	top:-20px;
-	z-index: -1;
-}
-
-.culture {
-	padding-left: 650px;
-	padding-top: 10px;
-	padding-right: 30px;
-}
-
-.experience {
-	padding-left: 30px;
-	padding-top: 10px;
-	padding-right: 650px;
 }
 
 h1{
@@ -112,11 +82,23 @@ h3{
 	font-family:'Montserrat', sans-serif;
 }
 
+.container img {
+	max-width: 100%;
+}
+
 .ideas {
   	text-align:center;
 	background-image: url('../images/fullbg.jpg');
  	height: 300px;
  	width: 100%;
+ 	position: relative;
+}
+
+.fala3 {
+	width: 43%;
+	position: absolute;
+	left: 0px;
+	bottom: -25px;
 }
 
 .ideas p {
@@ -126,19 +108,7 @@ h3{
 	padding-top: 100px;
 }
 
-.projects-image {
-	float:right;
-}
-
-.culture-image {
-	float:left;
-}
-
-.experience-image {
-	float:right;
-}
-
-.clear {
-  clear: both;
+.content {
+	padding: 50px;
 }
 
