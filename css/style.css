@@ -12,17 +12,60 @@ header {
 }
 
 .fala1 {
- 	width: 53%;
+ 	width: 500px;
  	position: absolute;
  	right: 0px;
- 	bottom: -40px;
+ 	bottom: -25px;
 }
 
 .fala2 {
- 	width: 43%;
+ 	width: 350px;
 	position: absolute;
  	right: 0px;
  	bottom: 50px;
+}
+
+h3.projects-title::before {
+	content: "1.";
+	font-size: 247px;
+	color: violet;
+	position: absolute;
+	left: 0px;
+	top:-25px;
+	z-index: -1;
+}
+
+.projects-content {
+	padding-left: 100px;
+}
+
+.culture-content {
+	padding-left: 100px;
+}
+
+.experience-content {
+	padding-left: 100px;
+}
+	
+
+h3.culture-title::before {
+	content: "2.";
+	font-size: 247px;
+	color: salmon;
+	position: absolute;
+	left: 0px;
+	top:-25px;
+	z-index: -1;
+}
+
+h3.experience-title::before {
+	content: "3.";
+	font-size: 247px;
+	color: fuchsia;
+	position: absolute;
+	left: 0px;
+	top:-25px;
+	z-index: -1;
 }
 
 nav {
@@ -65,7 +108,7 @@ a {
 	border: 2px solid violet;
 	font-family:'Montserrat', sans-serif;
 	text-decoration: none;
-	padding: 5px;
+	padding: 5px 20px;
 	position: relative;
 	top: 25px;
 }
@@ -84,19 +127,15 @@ h3{
 
 h4{
 	font-size:63px;
-	color: #7D2EAF;
+	color: purple;
 	font-family:'Montserrat', sans-serif;
 }
 
 label{
 	font-size:12px;
-	color: #7D2EAF;
+	color: purple;
 	font-family: 'Roboto', sans-serif;
-}
-
-input{
-	padding:20px;
-	padding-right: 110px;
+	padding-bottom: 5px;
 }
 
 form a {
@@ -105,7 +144,7 @@ form a {
 	border: 2px solid #FFFFFF;
 	font-family:'Montserrat', sans-serif;
 	text-decoration: none;
-	padding: 5px;
+	padding: 5px 55px;
 }
 
 .container img {
@@ -121,7 +160,7 @@ form a {
 }
 
 .fala3 {
-	width: 43%;
+	width: 500px;
 	position: absolute;
 	left: 0px;
 	bottom: -25px;
@@ -140,5 +179,25 @@ form a {
 
 footer {
 	height: 445px;
-	background: linear-gradient(115deg, #ff6b83 , #9326f1);
+	background: linear-gradient(115deg, #ff6b83, #9326f1);
+}
+
+input {
+	background: transparent;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid purple;
+	display:block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+textarea {
+	background: transparent;
+	display:block;
+	border: 2px solid purple;
+	width: 100%;
+	margin-top: 10px;
+
 }
